@@ -1,172 +1,83 @@
-# C Tutorials
+# C Programming Learning Guide
 
-A collection of **C programming tutorials and examples** designed to help beginners learn the fundamentals of the C programming language step by step.
+A collection of C programming topics and examples for people who are beginning to learn the language.
 
-## Topics Covered
+## Topics covered
 
-### 1. Introduction to C
+1. **Introduction to C** — source files, compilers, and the first program.
+2. **Variables and data types** — `int`, `float`, `double`, `char`, and constants.
+3. **Input and output** — using `printf()` and `scanf()`.
+4. **Operators** — arithmetic, relational, logical, and assignment operators.
+5. **Conditions** — `if`, `else if`, `else`, and `switch`.
+6. **Loops** — `for`, `while`, and `do...while`.
+7. **Functions** — parameters, return values, and function prototypes.
+8. **Arrays and strings** — storing and working with collections of values and characters.
+9. **Pointers** — memory addresses and dereferencing.
+10. **Structures** — grouping related data.
+11. **File handling** — opening, reading, writing, and closing files.
+12. **Dynamic memory** — using `malloc()`, `calloc()`, `realloc()`, and `free()`.
 
-* What is C?
-* Installing a C compiler
-* Writing your first C program
-* Compiling and running a program
-
-### 2. Variables and Data Types
-
-* Variables
-* `int`
-* `float`
-* `double`
-* `char`
-* Constants
-
-### 3. Input and Output
-
-* `printf()`
-* `scanf()`
-* Reading user input
-* Formatting output
-
-### 4. Operators
-
-* Arithmetic operators
-* Relational operators
-* Logical operators
-* Assignment operators
-* Increment and decrement
-
-### 5. Conditional Statements
-
-* `if`
-* `if...else`
-* `else if`
-* `switch`
-
-### 6. Loops
-
-* `for`
-* `while`
-* `do...while`
-* Nested loops
-
-### 7. Functions
-
-* Creating functions
-* Function parameters
-* Return values
-* Function prototypes
-
-### 8. Arrays
-
-* One-dimensional arrays
-* Multi-dimensional arrays
-* Searching and processing arrays
-
-### 9. Strings
-
-* Character arrays
-* String input
-* String manipulation
-* Common functions such as `strlen()`, `strcpy()`, and `strcmp()`
-
-### 10. Pointers
-
-* Pointer basics
-* Addresses and dereferencing
-* Pointers and functions
-* Pointers and arrays
-
-### 11. Structures
-
-* Creating structures
-* Accessing structure members
-* Arrays of structures
-* Nested structures
-
-### 12. File Handling
-
-* Opening files
-* Reading files
-* Writing files
-* Appending data
-* Closing files
-
-### 13. Dynamic Memory
-
-* `malloc()`
-* `calloc()`
-* `realloc()`
-* `free()`
-
-## Example Program
+## Example program
 
 ```c
 #include <stdio.h>
 
-int main() {
+int main(void) {
     printf("Hello, World!\n");
-
     return 0;
 }
 ```
 
-## Compile and Run
+## Requirements
 
-Using GCC:
+- A C compiler, such as GCC
+- A code editor
+- A terminal or command prompt
+
+Check that GCC is installed:
+
+```bash
+gcc --version
+```
+
+## Compile and run
+
+Compile a source file named `main.c`:
 
 ```bash
 gcc main.c -o main
 ```
 
-Run on macOS/Linux:
+Run it on macOS or Linux:
 
 ```bash
 ./main
 ```
 
-On Windows:
+On Windows, run:
 
-```bash
-main.exe
+```powershell
+.\main.exe
 ```
 
-## Learning Goals
+## Practice project ideas
 
-By completing these tutorials, you should be able to:
+- Simple calculator
+- Quiz program
+- Contact manager
+- Student record manager
+- Library record manager
 
-* Understand C programming fundamentals
-* Write and compile C programs
-* Work with arrays, strings, and structures
-* Use functions and pointers
-* Read and write files
-* Build practical command-line applications
-* Develop larger C projects independently
+These are suggested exercises for practising the language.
 
-## Requirements
+## Learning goals
 
-* A C compiler such as GCC
-* A code editor such as VS Code
-* Basic computer skills
+The material is intended to help learners understand C syntax, write and compile programs, use functions and data structures, work with pointers, and practise basic file operations.
 
-## Projects
+## Project status
 
-After completing the tutorials, you can practice by building:
+This is an educational resource. Refer to the source files to see which lessons and examples are currently available.
 
-* Student Management System
-* Library Management System
-* Banking System
-* Employee Management System
-* Inventory Management System
-* Contact Management System
-* Simple Calculator
-* Quiz Application
+## Author
 
-## eDDie
-
-**C Tutorials**
-
-A collection created for learning and practicing C programming.
-
-## License
-
-This project is intended for educational purposes.
+**eDDie**
